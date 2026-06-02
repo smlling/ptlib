@@ -1276,8 +1276,7 @@ dnl ########################################################################
 dnl look for IPV6 functions
 
 dnl MSWIN_DISPLAY    ipv6,IPv6 Support
-dnl MSWIN_CHECK_FILE ipv6,include\ws2tcpip.h,P_HAS_IPV6=1
-dnl MSWIN_CHECK_FILE ipv6,um\ws2tcpip.h,P_HAS_IPV6=1
+dnl MSWIN_CHECK_FILE ipv6,ws2tcpip.h,P_HAS_IPV6=1
 
 AC_ARG_ENABLE(ipv6, AS_HELP_STRING([--enable-ipv6],[enable IPV6 support]))
 
